@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="in.thekites.project.registerUser">
+
+    <TextView
+        android:id="@+id/txt"
+        android:text="Messenger will send one time SMS to verify your phone number.Carrier SMS charges may apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="20dp"
+        android:text="Please confirm your country code and Enter Your Phone Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"/>
+
+    <Spinner
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Choose_Country"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country"
+        android:id="@+id/editText" />
+    <EditText
+        android:id="@+id/num"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country"
+        android:inputType="phone"/>
+    <Button
+        android:text="Next"
+        android:onClick="next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">KChat</string>
+    <string name="terms"><u>Terms and Conditions</u></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register_user">registerUser</string>
+    <string name="title_activity_set_profile">setProfile</string>
+    <string name="title_activity_user_register">userRegister</string>
+
+    <string-array name="Choose_Country">
+        <item>India</item>
+        <item>US</item>
+        <item>UK</item>
+        <item>Canada</item>
+        <item>Singapore</item>
+    </string-array>
+    <string name="title_activity_main__screnn">Main_Screnn</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_app_setting">AppSetting</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sub_chat">SubChat</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_scheduler">Scheduler</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>
